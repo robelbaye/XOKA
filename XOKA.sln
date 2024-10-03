@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{757D2153-577B-48EF-9C8F-7C4E27B1D0F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XOKAService", "XOKAService\XOKAService.csproj", "{675DD551-29A9-4988-9847-F31C9AC29732}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{5BC36B22-35B9-41CD-BD06-08F603B2CBFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XOKADataModel", "XOKADataModel\XOKADataModel.csproj", "{C5749B77-5948-4031-AEB5-7D51CF3C3C85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{675DD551-29A9-4988-9847-F31C9AC29732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{675DD551-29A9-4988-9847-F31C9AC29732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{675DD551-29A9-4988-9847-F31C9AC29732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{675DD551-29A9-4988-9847-F31C9AC29732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5749B77-5948-4031-AEB5-7D51CF3C3C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5749B77-5948-4031-AEB5-7D51CF3C3C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5749B77-5948-4031-AEB5-7D51CF3C3C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5749B77-5948-4031-AEB5-7D51CF3C3C85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{675DD551-29A9-4988-9847-F31C9AC29732} = {757D2153-577B-48EF-9C8F-7C4E27B1D0F0}
+		{C5749B77-5948-4031-AEB5-7D51CF3C3C85} = {5BC36B22-35B9-41CD-BD06-08F603B2CBFA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8973FD3B-97FB-4989-99A0-A23C1B4D3BE6}
+	EndGlobalSection
+EndGlobal
