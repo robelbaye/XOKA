@@ -51,13 +51,47 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XOKADataModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XOKADataModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XOKADataModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XOKADataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XOKADataModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XOKADataModel.edmx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
     <None Include="packages.config" />
+    <EntityDeploy Include="XOKADataModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>XOKADataModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="XOKADataModel.edmx.diagram">
+      <DependentUpon>XOKADataModel.edmx</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="XOKADataModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>XOKADataModel.edmx</DependentUpon>
+      <LastGenOutput>XOKADataModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="XOKADataModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>XOKADataModel.edmx</DependentUpon>
+      <LastGenOutput>XOKADataModel.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
